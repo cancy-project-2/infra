@@ -22,7 +22,7 @@ data "google_iam_policy" "viewer" {
 }
 
 resource "google_storage_bucket" "cancy_website_bucket" {
-  name          = "cancy-website-2-bucket"
+  name          = "cancy-website-bucket"
   location      = "ASIA"
   force_destroy = true
   website {
